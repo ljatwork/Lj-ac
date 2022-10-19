@@ -1,0 +1,74 @@
+/* 
+  Localizable.strings
+  Animal Crossing
+
+  Created by Leah Joy Ylaya on 11/26/20.
+  
+*/
+"Email" = "Email";
+"Password" = "Password";
+"Username" = "Username";
+"Animal_Crossing" = "Animal Crossing";
+"Villagers" = "Villagers";
+"Critters" = "Critters";
+"Sign_Up" = "Sign Up";
+"Login" = "Login";
+"Species" = "Species";
+"Personality" = "Personality";
+"Gender" = "Gender";
+"Birthday" = "Birthday";
+"Sign" = "Sign";
+"Quote" = "Quote";
+"Phrase" = "Phrase";
+"Clothing" = "Clothing";
+"Settings" = "Settings";
+"Logout" = "Logout";
+"Confirm Password" = "Confirm Password";
+"Start a new message" = "Start a new message";
+"incorrect_password" = "Entered incorrect password.\n";
+"email_exist" = "Email exist. Please login.\n";
+"invalid_email" = "Email is invalid.\n";
+"username_exist" = "Username is already taken.\n";
+"password_not_match" = "Passwords did not match.\n";
+"invalid_login_username_or_email" = "Username or Email does not exist.\n";
+"short_password" = "Password is too short\n";
+"long_password" = "Password is too long\n";
+"short_username" = "Username is too short\n";
+"long_username" = "Username is too long\n";
+"bug" = "Bugs";
+"fish" = "Fish";
+"fossils" = "Fossils";
+"sea_creatures" = "Sea Creatures";
+"villager_species" = "Villager Species";
+"please_wait" = "Please wait...";
+"location" = "Location";
+"shadow_size" = "Shadow Size";
+"catchphrase" = "Catchphrase";
+"rarity" = "Rarity";
+"nook_price" = "Nook Price";
+"cj_price" = "CJ Price";
+"tank_size" = "Tank Size";
+"bells" = "Bells";
+"availability" = "Availability";
+"north_hemisphere" = "North Hemisphere";
+"south_hemisphere" = "South Hemisphere";
+"search_a_fish" = "Search a fish";
+"search_a_bug" = "Search a bug";
+"search_sea_creature" = "Search a sea creature";
+"search_a_villager" = "Search Villager";
+"flick_price" = "Flick price";
+"shadow_movement" = "Shadow Movement";
+"artwork" = "Artworks";
+"search_an_artwork" = "Search an artwork";
+"has_fake" = "Has fake";
+"fake_art" = "Fake art";
+"real_art" = "Real art";
+"art_name" = "Art name";
+"author" = "Author";
+"year" = "Year";
+"art_style" = "Art style";
+"artwork_description" = "Art Description";
+"buy" = "Buy";
+"sell" = "Sell";
+"authenticity" = "Authenticity";
+"art_size" = "Art Size";

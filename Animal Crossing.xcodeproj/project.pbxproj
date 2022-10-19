@@ -1,0 +1,1460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		290C43E82578B9DC003EC8F2 /* AC_LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290C43E72578B9DC003EC8F2 /* AC_LoginTests.swift */; };
+		290C43ED2578BD5C003EC8F2 /* AC_SignUpTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290C43EC2578BD5C003EC8F2 /* AC_SignUpTest.swift */; };
+		290FE74225764E030040EC06 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 290FE74125764E020040EC06 /* swiftgen.yml */; };
+		291D4278257DF90C003A0F6B /* FishViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291D4277257DF90B003A0F6B /* FishViewModel.swift */; };
+		291D428C257DFF73003A0F6B /* AC_FishTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291D428B257DFF73003A0F6B /* AC_FishTest.swift */; };
+		291D4297257E15FD003A0F6B /* FishListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291D4296257E15FC003A0F6B /* FishListViewController.swift */; };
+		291D429C257E163A003A0F6B /* FishListViewController+CollectionViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291D429B257E163A003A0F6B /* FishListViewController+CollectionViewDelegates.swift */; };
+		291D42A6257E173C003A0F6B /* CrittersViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291D42A5257E173C003A0F6B /* CrittersViewCell.swift */; };
+		291D4315257E3875003A0F6B /* FishDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291D4314257E3875003A0F6B /* FishDetailsView.swift */; };
+		292E5497256F3EBE00963928 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292E5496256F3EBE00963928 /* HeaderDetailView.swift */; };
+		292E54A1256F49F800963928 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292E54A0256F49F800963928 /* DetailsViewController.swift */; };
+		292E54C5256F501900963928 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 292E54C7256F501900963928 /* Localizable.strings */; };
+		2948DC2225664268004CE0BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DC2125664268004CE0BB /* AppDelegate.swift */; };
+		2948DC2425664268004CE0BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DC2325664268004CE0BB /* SceneDelegate.swift */; };
+		2948DC2625664268004CE0BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DC2525664268004CE0BB /* ViewController.swift */; };
+		2948DC2925664268004CE0BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2948DC2725664268004CE0BB /* Main.storyboard */; };
+		2948DC2C25664268004CE0BB /* Animal_Crossing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2948DC2A25664268004CE0BB /* Animal_Crossing.xcdatamodeld */; };
+		2948DC2E25664269004CE0BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2948DC2D25664269004CE0BB /* Assets.xcassets */; };
+		2948DC3125664269004CE0BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2948DC2F25664269004CE0BB /* LaunchScreen.storyboard */; };
+		2948DC4725664269004CE0BB /* Animal_CrossingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DC4625664269004CE0BB /* Animal_CrossingUITests.swift */; };
+		2948DC6C256646A7004CE0BB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DC6B256646A7004CE0BB /* LoginViewController.swift */; };
+		2948DC7D25664982004CE0BB /* APIResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DC7C25664982004CE0BB /* APIResource.swift */; };
+		2948DC8225664D71004CE0BB /* VillagersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DC8125664D71004CE0BB /* VillagersModel.swift */; };
+		2948DC8825664DE6004CE0BB /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DC8725664DE6004CE0BB /* Enums.swift */; };
+		2948DC8D25664F06004CE0BB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DC8C25664F06004CE0BB /* NetworkManager.swift */; };
+		2948DCE725665D26004CE0BB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DCE625665D26004CE0BB /* HomeViewController.swift */; };
+		2948DCF825666080004CE0BB /* ViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DCF725666080004CE0BB /* ViewHandler.swift */; };
+		2948DCFD25666610004CE0BB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DCFC25666610004CE0BB /* Constants.swift */; };
+		2948DD03256668CF004CE0BB /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DD02256668CF004CE0BB /* HomeViewCell.swift */; };
+		2948DD4E2566A003004CE0BB /* ACUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DD4D2566A003004CE0BB /* ACUtils.swift */; };
+		2948DD562566A159004CE0BB /* HomeViewController+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DD552566A159004CE0BB /* HomeViewController+View.swift */; };
+		2948DD952566B8B1004CE0BB /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DD942566B8B1004CE0BB /* HomeCollectionViewController.swift */; };
+		2948DDA32567558E004CE0BB /* HomeCollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DDA22567558E004CE0BB /* HomeCollectionViewExtension.swift */; };
+		2948DDA8256755C9004CE0BB /* VillagerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DDA7256755C9004CE0BB /* VillagerListViewController.swift */; };
+		2948DDAE2567590B004CE0BB /* VillagerListDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DDAD2567590B004CE0BB /* VillagerListDelegate.swift */; };
+		2948DDB325675BAA004CE0BB /* VillagersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DDB225675BAA004CE0BB /* VillagersCell.swift */; };
+		295FFFB225676AD4008EFB7F /* VillagersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295FFFB125676AD4008EFB7F /* VillagersViewModel.swift */; };
+		295FFFB925676E54008EFB7F /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295FFFB825676E54008EFB7F /* ImageCache.swift */; };
+		295FFFC725677850008EFB7F /* VillagerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295FFFC625677850008EFB7F /* VillagerListView.swift */; };
+		295FFFEE2567C192008EFB7F /* VillagerCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295FFFED2567C192008EFB7F /* VillagerCategoryViewController.swift */; };
+		295FFFF32567C1A9008EFB7F /* VillagerCategoryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295FFFF22567C1A9008EFB7F /* VillagerCategoryViews.swift */; };
+		295FFFF82567C27D008EFB7F /* VillagersCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295FFFF72567C27D008EFB7F /* VillagersCategoryCell.swift */; };
+		29626C9A256DFA8700482406 /* SignUpViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29626C99256DFA8700482406 /* SignUpViews.swift */; };
+		29626C9F256DFF9400482406 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29626C9E256DFF9400482406 /* LoginView.swift */; };
+		297CAAD32577350D003F8943 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297CAAD12577350D003F8943 /* Assets.swift */; };
+		297CAAD42577350D003F8943 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297CAAD22577350D003F8943 /* Strings.swift */; };
+		297CAB1F25776E12003F8943 /* ACUtils+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297CAB1E25776E12003F8943 /* ACUtils+String.swift */; };
+		297CAB2725776E72003F8943 /* ACUtils+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297CAB2625776E72003F8943 /* ACUtils+UIColor.swift */; };
+		297CAB2F25776EB0003F8943 /* ACUtils+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297CAB2E25776EB0003F8943 /* ACUtils+UIView.swift */; };
+		29A2AB19258083920028AE78 /* Animal_CrossingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948DC3B25664269004CE0BB /* Animal_CrossingTests.swift */; };
+		29ADD8A5256F75100006B5BD /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ADD8A4256F75100006B5BD /* DetailsView.swift */; };
+		29ADD8C7256F84F80006B5BD /* DetailsViewController+Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ADD8C6256F84F80006B5BD /* DetailsViewController+Views.swift */; };
+		29ADD8CD256F86640006B5BD /* VillagerDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ADD8CC256F86640006B5BD /* VillagerDetailsView.swift */; };
+		29BAA92425760669004328D6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BAA92325760668004328D6 /* SettingsViewController.swift */; };
+		29C165642568D3E800B0F2EB /* UIViewController+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C165632568D3E800B0F2EB /* UIViewController+Preview.swift */; };
+		29D69A2A25831DB800998C7A /* BugModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D69A2925831DB800998C7A /* BugModel.swift */; };
+		29D69A3225831EFC00998C7A /* BugViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D69A3125831EFC00998C7A /* BugViewModel.swift */; };
+		29D69A462583217900998C7A /* AC_BugTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D69A452583217900998C7A /* AC_BugTest.swift */; };
+		29D69A8A25832E6B00998C7A /* BugListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D69A8925832E6B00998C7A /* BugListViewController.swift */; };
+		29D69A8F25832EB400998C7A /* BugListViewController+CollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D69A8E25832EB400998C7A /* BugListViewController+CollectionViewDelegate.swift */; };
+		29D69A962583338400998C7A /* BugDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D69A952583338400998C7A /* BugDetailsView.swift */; };
+		29D69AAA25833FF300998C7A /* SeaCreatureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D69AA925833FF300998C7A /* SeaCreatureModel.swift */; };
+		29D69AC1258341F900998C7A /* SeaCreatureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D69AC0258341F900998C7A /* SeaCreatureViewModel.swift */; };
+		29D69AD52583439E00998C7A /* AC_SeaCreatureTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D69AD42583439E00998C7A /* AC_SeaCreatureTest.swift */; };
+		29D69ADC2583471300998C7A /* SeaCreatureListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D69ADB2583471300998C7A /* SeaCreatureListViewController.swift */; };
+		29D69AE42583473800998C7A /* SeaCreatureListViewController+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D69AE32583473800998C7A /* SeaCreatureListViewController+CollectionView.swift */; };
+		29D69AEA2583495600998C7A /* SeaCreatureDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D69AE92583495600998C7A /* SeaCreatureDetailView.swift */; };
+		29D69B112583526700998C7A /* ArtworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D69B102583526700998C7A /* ArtworkModel.swift */; };
+		29D69B192583590A00998C7A /* ArtworkViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D69B182583590A00998C7A /* ArtworkViewCell.swift */; };
+		29D69B1E25835A6700998C7A /* ArtworkListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D69B1D25835A6700998C7A /* ArtworkListCollectionViewController.swift */; };
+		29D69B2325835A9E00998C7A /* ArtworkListCollectionView+CollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D69B2225835A9E00998C7A /* ArtworkListCollectionView+CollectionViewDelegate.swift */; };
+		29D69B2825835B6100998C7A /* ArtworkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D69B2725835B6100998C7A /* ArtworkViewModel.swift */; };
+		29D69B622583694300998C7A /* ArtworkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D69B612583694300998C7A /* ArtworkDetailViewController.swift */; };
+		29D69B75258375D200998C7A /* ArtworkDetailView+Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D69B74258375D200998C7A /* ArtworkDetailView+Views.swift */; };
+		29DFBB632570D808005238DE /* PubnubManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFBB622570D808005238DE /* PubnubManager.swift */; };
+		29DFBB8B2570E621005238DE /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFBB8A2570E621005238DE /* MessageModel.swift */; };
+		29DFBB902570EB4F005238DE /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFBB8F2570EB4F005238DE /* ChatViewController.swift */; };
+		29DFBB962570EC78005238DE /* ChatViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DFBB952570EC78005238DE /* ChatViewDelegates.swift */; };
+		29EDC83F256CC6E100F4B048 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EDC83E256CC6E100F4B048 /* SignUpViewController.swift */; };
+		29EDC844256CCE2800F4B048 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EDC843256CCE2800F4B048 /* UsersViewModel.swift */; };
+		29EDC849256CCE9000F4B048 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EDC848256CCE9000F4B048 /* User.swift */; };
+		29EDC850256CD56200F4B048 /* LoginViewValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EDC84F256CD56200F4B048 /* LoginViewValidation.swift */; };
+		29EDC868256CED5E00F4B048 /* SignUpViewValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EDC867256CED5E00F4B048 /* SignUpViewValidation.swift */; };
+		29EECDC02578F02E005D8F78 /* CrittersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EECDBF2578F02E005D8F78 /* CrittersViewController.swift */; };
+		29EECDC62578F047005D8F78 /* CrittersMenuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EECDC52578F047005D8F78 /* CrittersMenuViewCell.swift */; };
+		29EECDCE2578F063005D8F78 /* FishModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EECDCD2578F063005D8F78 /* FishModel.swift */; };
+		29EECDD32578F06F005D8F78 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EECDD22578F06F005D8F78 /* ReusableView.swift */; };
+		29EECDD82578F1FA005D8F78 /* Critters+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EECDD72578F1FA005D8F78 /* Critters+TableView.swift */; };
+		29F4D1832580C04600FB715D /* ElementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F4D1822580C04600FB715D /* ElementsView.swift */; };
+		56DA891F120F4B0CF8FC72BE /* Pods_Animal_CrossingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF189BFCCBAA866225BF1B0E /* Pods_Animal_CrossingTests.framework */; };
+		60055082CE3E421C73B12612 /* Pods_Animal_Crossing_Animal_CrossingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620C1AA11D7D16FEFF4E8861 /* Pods_Animal_Crossing_Animal_CrossingUITests.framework */; };
+		A2ACD5DA82ABB718BB4F9861 /* Pods_Animal_Crossing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327DB737546D65E5CDEAE244 /* Pods_Animal_Crossing.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2948DC3825664269004CE0BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2948DC1625664268004CE0BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2948DC1D25664268004CE0BB;
+			remoteInfo = "Animal Crossing";
+		};
+		2948DC4325664269004CE0BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2948DC1625664268004CE0BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2948DC1D25664268004CE0BB;
+			remoteInfo = "Animal Crossing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DF2233C10235F1B77B9D101 /* Pods-Animal Crossing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal Crossing.release.xcconfig"; path = "Target Support Files/Pods-Animal Crossing/Pods-Animal Crossing.release.xcconfig"; sourceTree = "<group>"; };
+		290C43E72578B9DC003EC8F2 /* AC_LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AC_LoginTests.swift; sourceTree = "<group>"; };
+		290C43EC2578BD5C003EC8F2 /* AC_SignUpTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AC_SignUpTest.swift; sourceTree = "<group>"; };
+		290FE74125764E020040EC06 /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		291D4277257DF90B003A0F6B /* FishViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishViewModel.swift; sourceTree = "<group>"; };
+		291D428B257DFF73003A0F6B /* AC_FishTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AC_FishTest.swift; sourceTree = "<group>"; };
+		291D4296257E15FC003A0F6B /* FishListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishListViewController.swift; sourceTree = "<group>"; };
+		291D429B257E163A003A0F6B /* FishListViewController+CollectionViewDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FishListViewController+CollectionViewDelegates.swift"; sourceTree = "<group>"; };
+		291D42A5257E173C003A0F6B /* CrittersViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrittersViewCell.swift; sourceTree = "<group>"; };
+		291D4314257E3875003A0F6B /* FishDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishDetailsView.swift; sourceTree = "<group>"; };
+		292E5496256F3EBE00963928 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
+		292E54A0256F49F800963928 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		292E54BB256F4F5000963928 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		292E54BC256F4F5000963928 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		292E54C6256F501900963928 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		292E54CB256F502000963928 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2948DC1E25664268004CE0BB /* Animal Crossing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animal Crossing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2948DC2125664268004CE0BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2948DC2325664268004CE0BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2948DC2525664268004CE0BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2948DC2825664268004CE0BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2948DC2B25664268004CE0BB /* Animal_Crossing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Animal_Crossing.xcdatamodel; sourceTree = "<group>"; };
+		2948DC2D25664269004CE0BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2948DC3025664269004CE0BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2948DC3225664269004CE0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2948DC3725664269004CE0BB /* Animal CrossingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animal CrossingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2948DC3B25664269004CE0BB /* Animal_CrossingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal_CrossingTests.swift; sourceTree = "<group>"; };
+		2948DC3D25664269004CE0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2948DC4225664269004CE0BB /* Animal CrossingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animal CrossingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2948DC4625664269004CE0BB /* Animal_CrossingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal_CrossingUITests.swift; sourceTree = "<group>"; };
+		2948DC4825664269004CE0BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2948DC6B256646A7004CE0BB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2948DC7C25664982004CE0BB /* APIResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResource.swift; sourceTree = "<group>"; };
+		2948DC8125664D71004CE0BB /* VillagersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagersModel.swift; sourceTree = "<group>"; };
+		2948DC8725664DE6004CE0BB /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		2948DC8C25664F06004CE0BB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2948DCE625665D26004CE0BB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2948DCF725666080004CE0BB /* ViewHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHandler.swift; sourceTree = "<group>"; };
+		2948DCFC25666610004CE0BB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2948DD02256668CF004CE0BB /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		2948DD4D2566A003004CE0BB /* ACUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACUtils.swift; sourceTree = "<group>"; };
+		2948DD552566A159004CE0BB /* HomeViewController+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+View.swift"; sourceTree = "<group>"; };
+		2948DD942566B8B1004CE0BB /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = "<group>"; };
+		2948DDA22567558E004CE0BB /* HomeCollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewExtension.swift; sourceTree = "<group>"; };
+		2948DDA7256755C9004CE0BB /* VillagerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerListViewController.swift; sourceTree = "<group>"; };
+		2948DDAD2567590B004CE0BB /* VillagerListDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerListDelegate.swift; sourceTree = "<group>"; };
+		2948DDB225675BAA004CE0BB /* VillagersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagersCell.swift; sourceTree = "<group>"; };
+		295FFFB125676AD4008EFB7F /* VillagersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagersViewModel.swift; sourceTree = "<group>"; };
+		295FFFB825676E54008EFB7F /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		295FFFC625677850008EFB7F /* VillagerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerListView.swift; sourceTree = "<group>"; };
+		295FFFED2567C192008EFB7F /* VillagerCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerCategoryViewController.swift; sourceTree = "<group>"; };
+		295FFFF22567C1A9008EFB7F /* VillagerCategoryViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerCategoryViews.swift; sourceTree = "<group>"; };
+		295FFFF72567C27D008EFB7F /* VillagersCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagersCategoryCell.swift; sourceTree = "<group>"; };
+		29626C99256DFA8700482406 /* SignUpViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViews.swift; sourceTree = "<group>"; };
+		29626C9E256DFF9400482406 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		297CAAD12577350D003F8943 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		297CAAD22577350D003F8943 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		297CAB1E25776E12003F8943 /* ACUtils+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ACUtils+String.swift"; sourceTree = "<group>"; };
+		297CAB2625776E72003F8943 /* ACUtils+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ACUtils+UIColor.swift"; sourceTree = "<group>"; };
+		297CAB2E25776EB0003F8943 /* ACUtils+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ACUtils+UIView.swift"; sourceTree = "<group>"; };
+		29ADD8A4256F75100006B5BD /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		29ADD8C6256F84F80006B5BD /* DetailsViewController+Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailsViewController+Views.swift"; sourceTree = "<group>"; };
+		29ADD8CC256F86640006B5BD /* VillagerDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerDetailsView.swift; sourceTree = "<group>"; };
+		29BAA92325760668004328D6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		29C165632568D3E800B0F2EB /* UIViewController+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Preview.swift"; sourceTree = "<group>"; };
+		29D69A2925831DB800998C7A /* BugModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugModel.swift; sourceTree = "<group>"; };
+		29D69A3125831EFC00998C7A /* BugViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugViewModel.swift; sourceTree = "<group>"; };
+		29D69A452583217900998C7A /* AC_BugTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AC_BugTest.swift; sourceTree = "<group>"; };
+		29D69A8925832E6B00998C7A /* BugListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugListViewController.swift; sourceTree = "<group>"; };
+		29D69A8E25832EB400998C7A /* BugListViewController+CollectionViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BugListViewController+CollectionViewDelegate.swift"; sourceTree = "<group>"; };
+		29D69A952583338400998C7A /* BugDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugDetailsView.swift; sourceTree = "<group>"; };
+		29D69AA925833FF300998C7A /* SeaCreatureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaCreatureModel.swift; sourceTree = "<group>"; };
+		29D69AC0258341F900998C7A /* SeaCreatureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaCreatureViewModel.swift; sourceTree = "<group>"; };
+		29D69AD42583439E00998C7A /* AC_SeaCreatureTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AC_SeaCreatureTest.swift; sourceTree = "<group>"; };
+		29D69ADB2583471300998C7A /* SeaCreatureListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaCreatureListViewController.swift; sourceTree = "<group>"; };
+		29D69AE32583473800998C7A /* SeaCreatureListViewController+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SeaCreatureListViewController+CollectionView.swift"; sourceTree = "<group>"; };
+		29D69AE92583495600998C7A /* SeaCreatureDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaCreatureDetailView.swift; sourceTree = "<group>"; };
+		29D69B102583526700998C7A /* ArtworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkModel.swift; sourceTree = "<group>"; };
+		29D69B182583590A00998C7A /* ArtworkViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkViewCell.swift; sourceTree = "<group>"; };
+		29D69B1D25835A6700998C7A /* ArtworkListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkListCollectionViewController.swift; sourceTree = "<group>"; };
+		29D69B2225835A9E00998C7A /* ArtworkListCollectionView+CollectionViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArtworkListCollectionView+CollectionViewDelegate.swift"; sourceTree = "<group>"; };
+		29D69B2725835B6100998C7A /* ArtworkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkViewModel.swift; sourceTree = "<group>"; };
+		29D69B612583694300998C7A /* ArtworkDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkDetailViewController.swift; sourceTree = "<group>"; };
+		29D69B74258375D200998C7A /* ArtworkDetailView+Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArtworkDetailView+Views.swift"; sourceTree = "<group>"; };
+		29DFBB622570D808005238DE /* PubnubManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PubnubManager.swift; sourceTree = "<group>"; };
+		29DFBB8A2570E621005238DE /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		29DFBB8F2570EB4F005238DE /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		29DFBB952570EC78005238DE /* ChatViewDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewDelegates.swift; sourceTree = "<group>"; };
+		29EDC83E256CC6E100F4B048 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		29EDC843256CCE2800F4B048 /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		29EDC848256CCE9000F4B048 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		29EDC84F256CD56200F4B048 /* LoginViewValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewValidation.swift; sourceTree = "<group>"; };
+		29EDC867256CED5E00F4B048 /* SignUpViewValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewValidation.swift; sourceTree = "<group>"; };
+		29EECDBF2578F02E005D8F78 /* CrittersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrittersViewController.swift; sourceTree = "<group>"; };
+		29EECDC52578F047005D8F78 /* CrittersMenuViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrittersMenuViewCell.swift; sourceTree = "<group>"; };
+		29EECDCD2578F063005D8F78 /* FishModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishModel.swift; sourceTree = "<group>"; };
+		29EECDD22578F06F005D8F78 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		29EECDD72578F1FA005D8F78 /* Critters+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Critters+TableView.swift"; sourceTree = "<group>"; };
+		29F4D1822580C04600FB715D /* ElementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementsView.swift; sourceTree = "<group>"; };
+		327DB737546D65E5CDEAE244 /* Pods_Animal_Crossing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animal_Crossing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		370D3FF3EB57FD0A22E6B273 /* Pods-Animal Crossing-Animal CrossingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal Crossing-Animal CrossingUITests.debug.xcconfig"; path = "Target Support Files/Pods-Animal Crossing-Animal CrossingUITests/Pods-Animal Crossing-Animal CrossingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		620C1AA11D7D16FEFF4E8861 /* Pods_Animal_Crossing_Animal_CrossingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animal_Crossing_Animal_CrossingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76876AF9405AD6E608C50A0A /* Pods-Animal Crossing-Animal CrossingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal Crossing-Animal CrossingUITests.release.xcconfig"; path = "Target Support Files/Pods-Animal Crossing-Animal CrossingUITests/Pods-Animal Crossing-Animal CrossingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E984527CC3ED03159A175A1 /* Pods-Animal CrossingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal CrossingTests.release.xcconfig"; path = "Target Support Files/Pods-Animal CrossingTests/Pods-Animal CrossingTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF189BFCCBAA866225BF1B0E /* Pods_Animal_CrossingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animal_CrossingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0674F533ADF97DCC5D8CCE4 /* Pods-Animal CrossingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal CrossingTests.debug.xcconfig"; path = "Target Support Files/Pods-Animal CrossingTests/Pods-Animal CrossingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDB2E6955B3A230EEFC6D556 /* Pods-Animal Crossing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animal Crossing.debug.xcconfig"; path = "Target Support Files/Pods-Animal Crossing/Pods-Animal Crossing.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2948DC1B25664268004CE0BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2ACD5DA82ABB718BB4F9861 /* Pods_Animal_Crossing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2948DC3425664269004CE0BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DA891F120F4B0CF8FC72BE /* Pods_Animal_CrossingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2948DC3F25664269004CE0BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60055082CE3E421C73B12612 /* Pods_Animal_Crossing_Animal_CrossingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A1B3E36EB3D44503EDBA2B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDB2E6955B3A230EEFC6D556 /* Pods-Animal Crossing.debug.xcconfig */,
+				0DF2233C10235F1B77B9D101 /* Pods-Animal Crossing.release.xcconfig */,
+				370D3FF3EB57FD0A22E6B273 /* Pods-Animal Crossing-Animal CrossingUITests.debug.xcconfig */,
+				76876AF9405AD6E608C50A0A /* Pods-Animal Crossing-Animal CrossingUITests.release.xcconfig */,
+				D0674F533ADF97DCC5D8CCE4 /* Pods-Animal CrossingTests.debug.xcconfig */,
+				9E984527CC3ED03159A175A1 /* Pods-Animal CrossingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		290FE74025764DA70040EC06 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				297CAAD12577350D003F8943 /* Assets.swift */,
+				297CAAD22577350D003F8943 /* Strings.swift */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		291D4276257DDBA1003A0F6B /* Fish */ = {
+			isa = PBXGroup;
+			children = (
+				291D4308257E3772003A0F6B /* Fish Details */,
+				291D4307257E3766003A0F6B /* Fish List */,
+			);
+			path = Fish;
+			sourceTree = "<group>";
+		};
+		291D4307257E3766003A0F6B /* Fish List */ = {
+			isa = PBXGroup;
+			children = (
+				291D4296257E15FC003A0F6B /* FishListViewController.swift */,
+				291D429B257E163A003A0F6B /* FishListViewController+CollectionViewDelegates.swift */,
+			);
+			path = "Fish List";
+			sourceTree = "<group>";
+		};
+		291D4308257E3772003A0F6B /* Fish Details */ = {
+			isa = PBXGroup;
+			children = (
+				291D4314257E3875003A0F6B /* FishDetailsView.swift */,
+			);
+			path = "Fish Details";
+			sourceTree = "<group>";
+		};
+		292E549E256F498D00963928 /* Details Common Views */ = {
+			isa = PBXGroup;
+			children = (
+				29ADD8A3256F74ED0006B5BD /* Details View */,
+				292E549F256F499C00963928 /* Header View */,
+				292E54A0256F49F800963928 /* DetailsViewController.swift */,
+				29ADD8C6256F84F80006B5BD /* DetailsViewController+Views.swift */,
+			);
+			path = "Details Common Views";
+			sourceTree = "<group>";
+		};
+		292E549F256F499C00963928 /* Header View */ = {
+			isa = PBXGroup;
+			children = (
+				292E5496256F3EBE00963928 /* HeaderDetailView.swift */,
+			);
+			path = "Header View";
+			sourceTree = "<group>";
+		};
+		2948DC1525664268004CE0BB = {
+			isa = PBXGroup;
+			children = (
+				290FE74125764E020040EC06 /* swiftgen.yml */,
+				2948DC2025664268004CE0BB /* Animal Crossing */,
+				2948DC2A25664268004CE0BB /* Animal_Crossing.xcdatamodeld */,
+				2948DC3A25664269004CE0BB /* Animal CrossingTests */,
+				2948DC4525664269004CE0BB /* Animal CrossingUITests */,
+				2948DC1F25664268004CE0BB /* Products */,
+				1A1B3E36EB3D44503EDBA2B3 /* Pods */,
+				63B5970521333C7DDD847934 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2948DC1F25664268004CE0BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2948DC1E25664268004CE0BB /* Animal Crossing.app */,
+				2948DC3725664269004CE0BB /* Animal CrossingTests.xctest */,
+				2948DC4225664269004CE0BB /* Animal CrossingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2948DC2025664268004CE0BB /* Animal Crossing */ = {
+			isa = PBXGroup;
+			children = (
+				2948DD0A256671FA004CE0BB /* View Models */,
+				2948DC6025664294004CE0BB /* Views */,
+				2948DC5C25664281004CE0BB /* Controllers */,
+				2948DC5B25664279004CE0BB /* Model */,
+				2948DC572566426F004CE0BB /* Resources */,
+			);
+			path = "Animal Crossing";
+			sourceTree = "<group>";
+		};
+		2948DC3A25664269004CE0BB /* Animal CrossingTests */ = {
+			isa = PBXGroup;
+			children = (
+				2948DC3B25664269004CE0BB /* Animal_CrossingTests.swift */,
+				29D69A452583217900998C7A /* AC_BugTest.swift */,
+				29D69AD42583439E00998C7A /* AC_SeaCreatureTest.swift */,
+				291D428B257DFF73003A0F6B /* AC_FishTest.swift */,
+				290C43E72578B9DC003EC8F2 /* AC_LoginTests.swift */,
+				290C43EC2578BD5C003EC8F2 /* AC_SignUpTest.swift */,
+				2948DC3D25664269004CE0BB /* Info.plist */,
+			);
+			path = "Animal CrossingTests";
+			sourceTree = "<group>";
+		};
+		2948DC4525664269004CE0BB /* Animal CrossingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2948DC4625664269004CE0BB /* Animal_CrossingUITests.swift */,
+				2948DC4825664269004CE0BB /* Info.plist */,
+			);
+			path = "Animal CrossingUITests";
+			sourceTree = "<group>";
+		};
+		2948DC572566426F004CE0BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				297CAB1D25776DFD003F8943 /* Utils */,
+				290FE74025764DA70040EC06 /* SwiftGen */,
+				29DFBB502570D245005238DE /* WebSocket */,
+				29F090AB256D02A60081FE98 /* Scene */,
+				295FFFB725676E3D008EFB7F /* Image Caching */,
+				2948DC7B25664944004CE0BB /* API Resources */,
+				2948DCFC25666610004CE0BB /* Constants.swift */,
+				2948DC8725664DE6004CE0BB /* Enums.swift */,
+				2948DC2D25664269004CE0BB /* Assets.xcassets */,
+				2948DC3225664269004CE0BB /* Info.plist */,
+				292E54C7256F501900963928 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2948DC5B25664279004CE0BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2948DC8125664D71004CE0BB /* VillagersModel.swift */,
+				29D69A2925831DB800998C7A /* BugModel.swift */,
+				29EDC848256CCE9000F4B048 /* User.swift */,
+				29D69B102583526700998C7A /* ArtworkModel.swift */,
+				29DFBB8A2570E621005238DE /* MessageModel.swift */,
+				29EECDCD2578F063005D8F78 /* FishModel.swift */,
+				29D69AA925833FF300998C7A /* SeaCreatureModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2948DC5C25664281004CE0BB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				29D69B0F2583521400998C7A /* Artworks */,
+				29EECDBB2578F011005D8F78 /* Critters */,
+				29BAA9222576063B004328D6 /* Settings */,
+				29DFBB672570E097005238DE /* Chat */,
+				292E549E256F498D00963928 /* Details Common Views */,
+				2948DCE525665CE2004CE0BB /* Home */,
+				2948DC772566492A004CE0BB /* Villagers */,
+				2948DC6A25664682004CE0BB /* Register */,
+				2948DDB725675D95004CE0BB /* Common Views */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2948DC6025664294004CE0BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2948DC2725664268004CE0BB /* Main.storyboard */,
+				2948DC2F25664269004CE0BB /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2948DC6A25664682004CE0BB /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				29EDC84E256CD54A00F4B048 /* Sign Up */,
+				29EDC84D256CD54300F4B048 /* Login */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		2948DC772566492A004CE0BB /* Villagers */ = {
+			isa = PBXGroup;
+			children = (
+				295FFFEC2567C138008EFB7F /* Category */,
+				2948DDAC25675651004CE0BB /* Villagers List */,
+				2948DD5A2566A5A6004CE0BB /* Villagers Cell */,
+				29ADD8CB256F86400006B5BD /* Villagers Details */,
+			);
+			path = Villagers;
+			sourceTree = "<group>";
+		};
+		2948DC7B25664944004CE0BB /* API Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2948DC7C25664982004CE0BB /* APIResource.swift */,
+				2948DC8C25664F06004CE0BB /* NetworkManager.swift */,
+			);
+			path = "API Resources";
+			sourceTree = "<group>";
+		};
+		2948DCE525665CE2004CE0BB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2948DD5B2566A897004CE0BB /* Collection View */,
+				2948DD01256668AE004CE0BB /* Home Cell */,
+				2948DD99256754A3004CE0BB /* Table View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2948DD01256668AE004CE0BB /* Home Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2948DD02256668CF004CE0BB /* HomeViewCell.swift */,
+			);
+			path = "Home Cell";
+			sourceTree = "<group>";
+		};
+		2948DD0A256671FA004CE0BB /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				295FFFB125676AD4008EFB7F /* VillagersViewModel.swift */,
+				29EDC843256CCE2800F4B048 /* UsersViewModel.swift */,
+				291D4277257DF90B003A0F6B /* FishViewModel.swift */,
+				29D69A3125831EFC00998C7A /* BugViewModel.swift */,
+				29D69AC0258341F900998C7A /* SeaCreatureViewModel.swift */,
+				29D69B2725835B6100998C7A /* ArtworkViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		2948DD5A2566A5A6004CE0BB /* Villagers Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2948DDB225675BAA004CE0BB /* VillagersCell.swift */,
+				295FFFF72567C27D008EFB7F /* VillagersCategoryCell.swift */,
+			);
+			path = "Villagers Cell";
+			sourceTree = "<group>";
+		};
+		2948DD5B2566A897004CE0BB /* Collection View */ = {
+			isa = PBXGroup;
+			children = (
+				2948DD942566B8B1004CE0BB /* HomeCollectionViewController.swift */,
+				2948DDA22567558E004CE0BB /* HomeCollectionViewExtension.swift */,
+			);
+			path = "Collection View";
+			sourceTree = "<group>";
+		};
+		2948DD99256754A3004CE0BB /* Table View */ = {
+			isa = PBXGroup;
+			children = (
+				2948DCE625665D26004CE0BB /* HomeViewController.swift */,
+				2948DD552566A159004CE0BB /* HomeViewController+View.swift */,
+			);
+			path = "Table View";
+			sourceTree = "<group>";
+		};
+		2948DDAC25675651004CE0BB /* Villagers List */ = {
+			isa = PBXGroup;
+			children = (
+				2948DDA7256755C9004CE0BB /* VillagerListViewController.swift */,
+				2948DDAD2567590B004CE0BB /* VillagerListDelegate.swift */,
+				295FFFC625677850008EFB7F /* VillagerListView.swift */,
+			);
+			path = "Villagers List";
+			sourceTree = "<group>";
+		};
+		2948DDB725675D95004CE0BB /* Common Views */ = {
+			isa = PBXGroup;
+			children = (
+				2948DC2525664268004CE0BB /* ViewController.swift */,
+				2948DCF725666080004CE0BB /* ViewHandler.swift */,
+				29C165632568D3E800B0F2EB /* UIViewController+Preview.swift */,
+				29EECDD22578F06F005D8F78 /* ReusableView.swift */,
+			);
+			path = "Common Views";
+			sourceTree = "<group>";
+		};
+		295FFFB725676E3D008EFB7F /* Image Caching */ = {
+			isa = PBXGroup;
+			children = (
+				295FFFB825676E54008EFB7F /* ImageCache.swift */,
+			);
+			path = "Image Caching";
+			sourceTree = "<group>";
+		};
+		295FFFEC2567C138008EFB7F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				295FFFED2567C192008EFB7F /* VillagerCategoryViewController.swift */,
+				295FFFF22567C1A9008EFB7F /* VillagerCategoryViews.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		297CAB1D25776DFD003F8943 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2948DD4D2566A003004CE0BB /* ACUtils.swift */,
+				297CAB2625776E72003F8943 /* ACUtils+UIColor.swift */,
+				297CAB2E25776EB0003F8943 /* ACUtils+UIView.swift */,
+				297CAB1E25776E12003F8943 /* ACUtils+String.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		29ADD8A3256F74ED0006B5BD /* Details View */ = {
+			isa = PBXGroup;
+			children = (
+				29ADD8A4256F75100006B5BD /* DetailsView.swift */,
+				29F4D1822580C04600FB715D /* ElementsView.swift */,
+			);
+			path = "Details View";
+			sourceTree = "<group>";
+		};
+		29ADD8CB256F86400006B5BD /* Villagers Details */ = {
+			isa = PBXGroup;
+			children = (
+				29ADD8CC256F86640006B5BD /* VillagerDetailsView.swift */,
+			);
+			path = "Villagers Details";
+			sourceTree = "<group>";
+		};
+		29BAA9222576063B004328D6 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				29BAA92325760668004328D6 /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		29D69A2825831BDD00998C7A /* Bug */ = {
+			isa = PBXGroup;
+			children = (
+				29D69A942583334100998C7A /* Bug Details */,
+				29D69A932583333800998C7A /* Bug List */,
+			);
+			path = Bug;
+			sourceTree = "<group>";
+		};
+		29D69A932583333800998C7A /* Bug List */ = {
+			isa = PBXGroup;
+			children = (
+				29D69A8925832E6B00998C7A /* BugListViewController.swift */,
+				29D69A8E25832EB400998C7A /* BugListViewController+CollectionViewDelegate.swift */,
+			);
+			path = "Bug List";
+			sourceTree = "<group>";
+		};
+		29D69A942583334100998C7A /* Bug Details */ = {
+			isa = PBXGroup;
+			children = (
+				29D69A952583338400998C7A /* BugDetailsView.swift */,
+			);
+			path = "Bug Details";
+			sourceTree = "<group>";
+		};
+		29D69AD9258346D500998C7A /* Sea Creature */ = {
+			isa = PBXGroup;
+			children = (
+				29D69AE82583493F00998C7A /* Sea Creature Details */,
+				29D69ADA258346E100998C7A /* Sea Creature List */,
+			);
+			path = "Sea Creature";
+			sourceTree = "<group>";
+		};
+		29D69ADA258346E100998C7A /* Sea Creature List */ = {
+			isa = PBXGroup;
+			children = (
+				29D69ADB2583471300998C7A /* SeaCreatureListViewController.swift */,
+				29D69AE32583473800998C7A /* SeaCreatureListViewController+CollectionView.swift */,
+			);
+			path = "Sea Creature List";
+			sourceTree = "<group>";
+		};
+		29D69AE82583493F00998C7A /* Sea Creature Details */ = {
+			isa = PBXGroup;
+			children = (
+				29D69AE92583495600998C7A /* SeaCreatureDetailView.swift */,
+			);
+			path = "Sea Creature Details";
+			sourceTree = "<group>";
+		};
+		29D69B0F2583521400998C7A /* Artworks */ = {
+			isa = PBXGroup;
+			children = (
+				29D69B602583691B00998C7A /* Artwork Details */,
+				29D69B59258365D300998C7A /* Artwork Cells */,
+				29D69B5F2583690900998C7A /* Artwork List */,
+			);
+			path = Artworks;
+			sourceTree = "<group>";
+		};
+		29D69B59258365D300998C7A /* Artwork Cells */ = {
+			isa = PBXGroup;
+			children = (
+				29D69B182583590A00998C7A /* ArtworkViewCell.swift */,
+			);
+			path = "Artwork Cells";
+			sourceTree = "<group>";
+		};
+		29D69B5F2583690900998C7A /* Artwork List */ = {
+			isa = PBXGroup;
+			children = (
+				29D69B1D25835A6700998C7A /* ArtworkListCollectionViewController.swift */,
+				29D69B2225835A9E00998C7A /* ArtworkListCollectionView+CollectionViewDelegate.swift */,
+			);
+			path = "Artwork List";
+			sourceTree = "<group>";
+		};
+		29D69B602583691B00998C7A /* Artwork Details */ = {
+			isa = PBXGroup;
+			children = (
+				29D69B612583694300998C7A /* ArtworkDetailViewController.swift */,
+				29D69B74258375D200998C7A /* ArtworkDetailView+Views.swift */,
+			);
+			path = "Artwork Details";
+			sourceTree = "<group>";
+		};
+		29DFBB502570D245005238DE /* WebSocket */ = {
+			isa = PBXGroup;
+			children = (
+				29DFBB622570D808005238DE /* PubnubManager.swift */,
+			);
+			path = WebSocket;
+			sourceTree = "<group>";
+		};
+		29DFBB672570E097005238DE /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				29DFBB8F2570EB4F005238DE /* ChatViewController.swift */,
+				29DFBB952570EC78005238DE /* ChatViewDelegates.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		29EDC84D256CD54300F4B048 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2948DC6B256646A7004CE0BB /* LoginViewController.swift */,
+				29EDC84F256CD56200F4B048 /* LoginViewValidation.swift */,
+				29626C9E256DFF9400482406 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		29EDC84E256CD54A00F4B048 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				29EDC83E256CC6E100F4B048 /* SignUpViewController.swift */,
+				29EDC867256CED5E00F4B048 /* SignUpViewValidation.swift */,
+				29626C99256DFA8700482406 /* SignUpViews.swift */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		29EECDBB2578F011005D8F78 /* Critters */ = {
+			isa = PBXGroup;
+			children = (
+				29D69AD9258346D500998C7A /* Sea Creature */,
+				29D69A2825831BDD00998C7A /* Bug */,
+				291D4276257DDBA1003A0F6B /* Fish */,
+				29EECDC42578F034005D8F78 /* Critters Cell */,
+				29EECDBF2578F02E005D8F78 /* CrittersViewController.swift */,
+				29EECDD72578F1FA005D8F78 /* Critters+TableView.swift */,
+			);
+			path = Critters;
+			sourceTree = "<group>";
+		};
+		29EECDC42578F034005D8F78 /* Critters Cell */ = {
+			isa = PBXGroup;
+			children = (
+				29EECDC52578F047005D8F78 /* CrittersMenuViewCell.swift */,
+				291D42A5257E173C003A0F6B /* CrittersViewCell.swift */,
+			);
+			path = "Critters Cell";
+			sourceTree = "<group>";
+		};
+		29F090AB256D02A60081FE98 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				2948DC2125664268004CE0BB /* AppDelegate.swift */,
+				2948DC2325664268004CE0BB /* SceneDelegate.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		63B5970521333C7DDD847934 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				327DB737546D65E5CDEAE244 /* Pods_Animal_Crossing.framework */,
+				620C1AA11D7D16FEFF4E8861 /* Pods_Animal_Crossing_Animal_CrossingUITests.framework */,
+				AF189BFCCBAA866225BF1B0E /* Pods_Animal_CrossingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2948DC1D25664268004CE0BB /* Animal Crossing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2948DC4B25664269004CE0BB /* Build configuration list for PBXNativeTarget "Animal Crossing" */;
+			buildPhases = (
+				5A5FA0D915AACBF8EDF98D52 /* [CP] Check Pods Manifest.lock */,
+				2948DC1A25664268004CE0BB /* Sources */,
+				2948DC1B25664268004CE0BB /* Frameworks */,
+				2948DC1C25664268004CE0BB /* Resources */,
+				7DE521FBBA7E299CFCFD099E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Animal Crossing";
+			productName = "Animal Crossing";
+			productReference = 2948DC1E25664268004CE0BB /* Animal Crossing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2948DC3625664269004CE0BB /* Animal CrossingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2948DC4E25664269004CE0BB /* Build configuration list for PBXNativeTarget "Animal CrossingTests" */;
+			buildPhases = (
+				28ACA0B27B54E16245E672AC /* [CP] Check Pods Manifest.lock */,
+				2948DC3325664269004CE0BB /* Sources */,
+				2948DC3425664269004CE0BB /* Frameworks */,
+				2948DC3525664269004CE0BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2948DC3925664269004CE0BB /* PBXTargetDependency */,
+			);
+			name = "Animal CrossingTests";
+			productName = "Animal CrossingTests";
+			productReference = 2948DC3725664269004CE0BB /* Animal CrossingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2948DC4125664269004CE0BB /* Animal CrossingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2948DC5125664269004CE0BB /* Build configuration list for PBXNativeTarget "Animal CrossingUITests" */;
+			buildPhases = (
+				5FE58B19ADB9712D258E9540 /* [CP] Check Pods Manifest.lock */,
+				2948DC3E25664269004CE0BB /* Sources */,
+				2948DC3F25664269004CE0BB /* Frameworks */,
+				2948DC4025664269004CE0BB /* Resources */,
+				2D96A65867D4D7D44A718322 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2948DC4425664269004CE0BB /* PBXTargetDependency */,
+			);
+			name = "Animal CrossingUITests";
+			productName = "Animal CrossingUITests";
+			productReference = 2948DC4225664269004CE0BB /* Animal CrossingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2948DC1625664268004CE0BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					2948DC1D25664268004CE0BB = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					2948DC3625664269004CE0BB = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 2948DC1D25664268004CE0BB;
+					};
+					2948DC4125664269004CE0BB = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 2948DC1D25664268004CE0BB;
+					};
+				};
+			};
+			buildConfigurationList = 2948DC1925664268004CE0BB /* Build configuration list for PBXProject "Animal Crossing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = 2948DC1525664268004CE0BB;
+			productRefGroup = 2948DC1F25664268004CE0BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2948DC1D25664268004CE0BB /* Animal Crossing */,
+				2948DC3625664269004CE0BB /* Animal CrossingTests */,
+				2948DC4125664269004CE0BB /* Animal CrossingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2948DC1C25664268004CE0BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2948DC3125664269004CE0BB /* LaunchScreen.storyboard in Resources */,
+				290FE74225764E030040EC06 /* swiftgen.yml in Resources */,
+				292E54C5256F501900963928 /* Localizable.strings in Resources */,
+				2948DC2E25664269004CE0BB /* Assets.xcassets in Resources */,
+				2948DC2925664268004CE0BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2948DC3525664269004CE0BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2948DC4025664269004CE0BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28ACA0B27B54E16245E672AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Animal CrossingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D96A65867D4D7D44A718322 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Animal Crossing-Animal CrossingUITests/Pods-Animal Crossing-Animal CrossingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Animal Crossing-Animal CrossingUITests/Pods-Animal Crossing-Animal CrossingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Animal Crossing-Animal CrossingUITests/Pods-Animal Crossing-Animal CrossingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A5FA0D915AACBF8EDF98D52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Animal Crossing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FE58B19ADB9712D258E9540 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Animal Crossing-Animal CrossingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DE521FBBA7E299CFCFD099E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Animal Crossing/Pods-Animal Crossing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Animal Crossing/Pods-Animal Crossing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Animal Crossing/Pods-Animal Crossing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2948DC1A25664268004CE0BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D69B112583526700998C7A /* ArtworkModel.swift in Sources */,
+				291D42A6257E173C003A0F6B /* CrittersViewCell.swift in Sources */,
+				29D69A962583338400998C7A /* BugDetailsView.swift in Sources */,
+				29F4D1832580C04600FB715D /* ElementsView.swift in Sources */,
+				295FFFB925676E54008EFB7F /* ImageCache.swift in Sources */,
+				295FFFB225676AD4008EFB7F /* VillagersViewModel.swift in Sources */,
+				295FFFEE2567C192008EFB7F /* VillagerCategoryViewController.swift in Sources */,
+				291D429C257E163A003A0F6B /* FishListViewController+CollectionViewDelegates.swift in Sources */,
+				29D69B1E25835A6700998C7A /* ArtworkListCollectionViewController.swift in Sources */,
+				29EECDCE2578F063005D8F78 /* FishModel.swift in Sources */,
+				2948DD4E2566A003004CE0BB /* ACUtils.swift in Sources */,
+				29DFBB8B2570E621005238DE /* MessageModel.swift in Sources */,
+				29D69A3225831EFC00998C7A /* BugViewModel.swift in Sources */,
+				2948DC8D25664F06004CE0BB /* NetworkManager.swift in Sources */,
+				29D69B192583590A00998C7A /* ArtworkViewCell.swift in Sources */,
+				295FFFF82567C27D008EFB7F /* VillagersCategoryCell.swift in Sources */,
+				297CAB2F25776EB0003F8943 /* ACUtils+UIView.swift in Sources */,
+				29EDC850256CD56200F4B048 /* LoginViewValidation.swift in Sources */,
+				297CAAD32577350D003F8943 /* Assets.swift in Sources */,
+				2948DC2625664268004CE0BB /* ViewController.swift in Sources */,
+				2948DC8225664D71004CE0BB /* VillagersModel.swift in Sources */,
+				29DFBB902570EB4F005238DE /* ChatViewController.swift in Sources */,
+				29EDC849256CCE9000F4B048 /* User.swift in Sources */,
+				29EECDD32578F06F005D8F78 /* ReusableView.swift in Sources */,
+				29ADD8A5256F75100006B5BD /* DetailsView.swift in Sources */,
+				29ADD8CD256F86640006B5BD /* VillagerDetailsView.swift in Sources */,
+				29626C9F256DFF9400482406 /* LoginView.swift in Sources */,
+				292E54A1256F49F800963928 /* DetailsViewController.swift in Sources */,
+				29D69ADC2583471300998C7A /* SeaCreatureListViewController.swift in Sources */,
+				29D69AE42583473800998C7A /* SeaCreatureListViewController+CollectionView.swift in Sources */,
+				291D4297257E15FD003A0F6B /* FishListViewController.swift in Sources */,
+				2948DDB325675BAA004CE0BB /* VillagersCell.swift in Sources */,
+				29D69A8A25832E6B00998C7A /* BugListViewController.swift in Sources */,
+				2948DC2C25664268004CE0BB /* Animal_Crossing.xcdatamodeld in Sources */,
+				2948DC2225664268004CE0BB /* AppDelegate.swift in Sources */,
+				29D69B2325835A9E00998C7A /* ArtworkListCollectionView+CollectionViewDelegate.swift in Sources */,
+				2948DD562566A159004CE0BB /* HomeViewController+View.swift in Sources */,
+				2948DDA32567558E004CE0BB /* HomeCollectionViewExtension.swift in Sources */,
+				297CAAD42577350D003F8943 /* Strings.swift in Sources */,
+				29EECDC02578F02E005D8F78 /* CrittersViewController.swift in Sources */,
+				29626C9A256DFA8700482406 /* SignUpViews.swift in Sources */,
+				2948DD952566B8B1004CE0BB /* HomeCollectionViewController.swift in Sources */,
+				29DFBB632570D808005238DE /* PubnubManager.swift in Sources */,
+				295FFFF32567C1A9008EFB7F /* VillagerCategoryViews.swift in Sources */,
+				29EDC868256CED5E00F4B048 /* SignUpViewValidation.swift in Sources */,
+				29D69B622583694300998C7A /* ArtworkDetailViewController.swift in Sources */,
+				2948DD03256668CF004CE0BB /* HomeViewCell.swift in Sources */,
+				295FFFC725677850008EFB7F /* VillagerListView.swift in Sources */,
+				2948DDAE2567590B004CE0BB /* VillagerListDelegate.swift in Sources */,
+				29D69AEA2583495600998C7A /* SeaCreatureDetailView.swift in Sources */,
+				29C165642568D3E800B0F2EB /* UIViewController+Preview.swift in Sources */,
+				2948DCF825666080004CE0BB /* ViewHandler.swift in Sources */,
+				291D4278257DF90C003A0F6B /* FishViewModel.swift in Sources */,
+				297CAB2725776E72003F8943 /* ACUtils+UIColor.swift in Sources */,
+				292E5497256F3EBE00963928 /* HeaderDetailView.swift in Sources */,
+				29EECDD82578F1FA005D8F78 /* Critters+TableView.swift in Sources */,
+				29D69B75258375D200998C7A /* ArtworkDetailView+Views.swift in Sources */,
+				29DFBB962570EC78005238DE /* ChatViewDelegates.swift in Sources */,
+				2948DCE725665D26004CE0BB /* HomeViewController.swift in Sources */,
+				29D69A2A25831DB800998C7A /* BugModel.swift in Sources */,
+				2948DC6C256646A7004CE0BB /* LoginViewController.swift in Sources */,
+				29D69AAA25833FF300998C7A /* SeaCreatureModel.swift in Sources */,
+				29D69A8F25832EB400998C7A /* BugListViewController+CollectionViewDelegate.swift in Sources */,
+				29EECDC62578F047005D8F78 /* CrittersMenuViewCell.swift in Sources */,
+				29BAA92425760669004328D6 /* SettingsViewController.swift in Sources */,
+				29D69B2825835B6100998C7A /* ArtworkViewModel.swift in Sources */,
+				29EDC844256CCE2800F4B048 /* UsersViewModel.swift in Sources */,
+				29EDC83F256CC6E100F4B048 /* SignUpViewController.swift in Sources */,
+				29ADD8C7256F84F80006B5BD /* DetailsViewController+Views.swift in Sources */,
+				291D4315257E3875003A0F6B /* FishDetailsView.swift in Sources */,
+				2948DDA8256755C9004CE0BB /* VillagerListViewController.swift in Sources */,
+				29D69AC1258341F900998C7A /* SeaCreatureViewModel.swift in Sources */,
+				2948DC7D25664982004CE0BB /* APIResource.swift in Sources */,
+				2948DC8825664DE6004CE0BB /* Enums.swift in Sources */,
+				297CAB1F25776E12003F8943 /* ACUtils+String.swift in Sources */,
+				2948DC2425664268004CE0BB /* SceneDelegate.swift in Sources */,
+				2948DCFD25666610004CE0BB /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2948DC3325664269004CE0BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D69A462583217900998C7A /* AC_BugTest.swift in Sources */,
+				291D428C257DFF73003A0F6B /* AC_FishTest.swift in Sources */,
+				290C43E82578B9DC003EC8F2 /* AC_LoginTests.swift in Sources */,
+				290C43ED2578BD5C003EC8F2 /* AC_SignUpTest.swift in Sources */,
+				29D69AD52583439E00998C7A /* AC_SeaCreatureTest.swift in Sources */,
+				29A2AB19258083920028AE78 /* Animal_CrossingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2948DC3E25664269004CE0BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2948DC4725664269004CE0BB /* Animal_CrossingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2948DC3925664269004CE0BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2948DC1D25664268004CE0BB /* Animal Crossing */;
+			targetProxy = 2948DC3825664269004CE0BB /* PBXContainerItemProxy */;
+		};
+		2948DC4425664269004CE0BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2948DC1D25664268004CE0BB /* Animal Crossing */;
+			targetProxy = 2948DC4325664269004CE0BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		292E54C7256F501900963928 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				292E54C6256F501900963928 /* en */,
+				292E54CB256F502000963928 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		2948DC2725664268004CE0BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2948DC2825664268004CE0BB /* Base */,
+				292E54BB256F4F5000963928 /* ja */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2948DC2F25664269004CE0BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2948DC3025664269004CE0BB /* Base */,
+				292E54BC256F4F5000963928 /* ja */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2948DC4925664269004CE0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2948DC4A25664269004CE0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2948DC4C25664269004CE0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDB2E6955B3A230EEFC6D556 /* Pods-Animal Crossing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7W3JUDYQP;
+				INFOPLIST_FILE = "$(SRCROOT)/Animal Crossing/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ylaya.Animal-Crossing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2948DC4D25664269004CE0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DF2233C10235F1B77B9D101 /* Pods-Animal Crossing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7W3JUDYQP;
+				INFOPLIST_FILE = "$(SRCROOT)/Animal Crossing/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ylaya.Animal-Crossing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2948DC4F25664269004CE0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0674F533ADF97DCC5D8CCE4 /* Pods-Animal CrossingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7W3JUDYQP;
+				INFOPLIST_FILE = "Animal CrossingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ylaya.Animal-CrossingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animal Crossing.app/Animal Crossing";
+			};
+			name = Debug;
+		};
+		2948DC5025664269004CE0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E984527CC3ED03159A175A1 /* Pods-Animal CrossingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7W3JUDYQP;
+				INFOPLIST_FILE = "Animal CrossingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ylaya.Animal-CrossingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animal Crossing.app/Animal Crossing";
+			};
+			name = Release;
+		};
+		2948DC5225664269004CE0BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 370D3FF3EB57FD0A22E6B273 /* Pods-Animal Crossing-Animal CrossingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7W3JUDYQP;
+				INFOPLIST_FILE = "Animal CrossingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ylaya.Animal-CrossingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Animal Crossing";
+			};
+			name = Debug;
+		};
+		2948DC5325664269004CE0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76876AF9405AD6E608C50A0A /* Pods-Animal Crossing-Animal CrossingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7W3JUDYQP;
+				INFOPLIST_FILE = "Animal CrossingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ylaya.Animal-CrossingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Animal Crossing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2948DC1925664268004CE0BB /* Build configuration list for PBXProject "Animal Crossing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2948DC4925664269004CE0BB /* Debug */,
+				2948DC4A25664269004CE0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2948DC4B25664269004CE0BB /* Build configuration list for PBXNativeTarget "Animal Crossing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2948DC4C25664269004CE0BB /* Debug */,
+				2948DC4D25664269004CE0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2948DC4E25664269004CE0BB /* Build configuration list for PBXNativeTarget "Animal CrossingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2948DC4F25664269004CE0BB /* Debug */,
+				2948DC5025664269004CE0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2948DC5125664269004CE0BB /* Build configuration list for PBXNativeTarget "Animal CrossingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2948DC5225664269004CE0BB /* Debug */,
+				2948DC5325664269004CE0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2948DC2A25664268004CE0BB /* Animal_Crossing.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2948DC2B25664268004CE0BB /* Animal_Crossing.xcdatamodel */,
+			);
+			currentVersion = 2948DC2B25664268004CE0BB /* Animal_Crossing.xcdatamodel */;
+			path = Animal_Crossing.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2948DC1625664268004CE0BB /* Project object */;
+}

@@ -1,0 +1,75 @@
+/* 
+  Localizable.strings
+  Animal Crossing
+
+  Created by Leah Joy Ylaya on 11/26/20.
+  
+*/
+"Email" = "メール";
+"Password" = "パスワード";
+"Username" = "ユーザー名";
+"Animal_Crossing" = "どうぶつの森";
+"Villagers" = "村人";
+"Critters" = "クリッター";
+"Sign_Up" = "サインアップ";
+"Login" = "ログイン";
+"Species" = "種類";
+"Personality" = "性格";
+"Gender" = "性別";
+"Birthday" = "誕生日";
+"Sign" = "星座";
+"Quote" = "引用";
+"Phrase" = "フレーズ";
+"Clothing" = "服の好み";
+"Settings" = "セッティング";
+"Logout" = "ログアウト";
+"Confirm Password" = "パスワードを認証する";
+"Start a new message" = "入力してください。。。";
+"incorrect_password" = "無効なパスワード\n";
+"email_exist" = "emailは既に登録済みです。ログインしてください。\n";
+"invalid_email" = "無効なemailです。\n";
+"username_exist" = "ユーザーネームは使われています。\n";
+"password_not_match" = "パスワードが一致しません。\n";
+"invalid_login_username_or_email" = "ユーザーネームかemailが登録されていません\n";
+"short_password" = "Password is too short\n";
+"long_password" = "Password is too long\n";
+"short_username" = "Username is too short\n";
+"long_username" = "Username is too long\n";
+"bug" = "Bugs";
+"fish" = "Fish";
+"fossils" = "Fossils";
+"sea_creatures" = "Sea Creatures";
+"villager_species" = "Villager Species";
+"please_wait" = "Please wait...";
+"location" = "Location";
+"shadow_size" = "Shadow Size";
+"catchphrase" = "Catchphrase";
+"rarity" = "Rarity";
+"nook_price" = "Nook Price";
+"cj_price" = "CJ Price";
+"tank_size" = "Tank Size";
+"bells" = "Bells";
+"availability" = "Availability";
+"north_hemisphere" = "North Hemisphere";
+"south_hemisphere" = "South Hemisphere";
+"search_a_fish" = "Search a fish";
+"search_a_bug" = "Search a bug";
+"search_sea_creature" = "Search a sea creature";
+"search_a_villager" = "Search Villager";
+"flick_price" = "Flick price";
+"shadow_movement" = "Shadow Movement";
+"artwork" = "Artworks";
+"search_an_artwork" = "Search an artwork";
+"has_fake" = "Has fake";
+"fake_art" = "Fake art";
+"real_art" = "Real art";
+"art_name" = "Art name";
+"author" = "Author";
+"year" = "Year";
+"art_style" = "Art style";
+"artwork_description" = "Art Description";
+"buy" = "Buy";
+"sell" = "Sell";
+"authenticity" = "Authenticity";
+"art_size" = "Art Size";
+"real_art" = "Real art";
